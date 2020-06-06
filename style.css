@@ -7,7 +7,7 @@
 /* ============== header ================= */
 
 .header {
-  height: 25px;
+  height: 400px;
   background-color: grey;
   display: flex;
   justify-content: space-between;
@@ -17,7 +17,7 @@
 }
 
 .logo {
-  height: 20px;
+  height: 100px;
   width: 60px;
   position: relative;
   cursor: pointer;
@@ -25,7 +25,7 @@
 
 .logoIcon {
   position: absolute;
-  height: 15px;
+  height: 100px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -64,8 +64,8 @@
 /* ========================== cart ============================ */
 
 .headerCart {
-  width: 20px;
-  height: 20px;
+  width: 1px;
+  height: 1px;
   position: relative;
 }
 
@@ -343,7 +343,7 @@
   }
 
   .logoIcon {
-    height: 30px;
+    height: 40px;
   }
 
   .navLink a {
@@ -380,7 +380,7 @@
 
   .headerCartIMG {
     position: absolute;
-    width: 100%;
+    width: 90%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
